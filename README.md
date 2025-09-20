@@ -1,8 +1,16 @@
-# ZenithProxy Example Plugin
+# ZenithProxy AutoIgnoreHard Plugin
 
 [ZenithProxy](https://github.com/rfresh2/ZenithProxy) is a Minecraft proxy and bot.
 
-This repository is an example core plugin for ZenithProxy, allowing you to add custom modules and commands.
+This Zenith Plugin helps to ignore spammers on 2b2t by running /ignorehard <username> on players that spam chat.
+
+## Commands
+ * `autoignorehard` - Main command
+   * `<on/off>` - Enable or disable the module
+   * `allowlist`
+     * `<add/del> <username>` - Add or remove a username from the allowlist. Allowed players will not be ignored.
+   * `logToFile <on/off>` - Enable or disable logging ignored players to `plugins/AutoIgnoreHard/ignored.log`
+   * `logToChat <on/off>` - Enable or disable logging ignored players to chat (you will still see 2b's system ignore message)
 
 ## Installing Plugins
 
