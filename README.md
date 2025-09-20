@@ -4,6 +4,8 @@
 
 This Zenith Plugin helps to ignore spammers on 2b2t by running /ignorehard <username> on players that spam chat.
 
+This plugin was made with 1.21.4 of ZenithProxy, but it should work on other versions as well.
+
 ## Commands
  * `autoignorehard` - Main command
    * `<on/off>` - Enable or disable the module
